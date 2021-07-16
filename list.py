@@ -1,8 +1,15 @@
-#Created By Dark Sl4d3
-#A product of Toxic Noobs
+#Coded By Dark Slad3
+#A Product Of Toxic Noobs
+
 import os
 import sys
 import time
+
+def psb(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.03)
 
 def printAllKLength(set, k): 
   
@@ -27,13 +34,27 @@ def printAllKLengthRec(set, prefix, n, k):
 
 if __name__ == "__main__": 
       
+    os.system("clear")
+    time.sleep(1)
+    print ("\033[92m")
+    os.system("figlet Toxic Noobs")
+    print("\033[3;90m 			      Security is a Illusion\033[0;92m")
+    time.sleep(0.6)
+    psb("\n\n[!] Loading.....")
+    time.sleep(0.7)
+    psb("\n[!] Please Wait.....")
+    time.sleep(1)
+
     print ("\033[92m")
     os.system(" clear")
     os.system("figlet Toxic List")
+    print("		A Product of Toxic Noobs")
     print ("\n")
+    time.sleep(0.8)
     print("[01] Wordlist with Numbers and Alphabets (1,2,3,a,b,c) . \n")
     print("[02] Wordlist with Numbers only (1,2,3) . \n")
     print("[03] Wordlist with Alphabets only (a,b,c) . \n \n")
+    time.sleep(0.6)
     inp = input("[*] Enter Your Choice:> ")
     
     if inp == (""):
@@ -87,7 +108,7 @@ if __name__ == "__main__":
     else:
         exit()
 
-    print(" \n \nPlease wait some time..... \n")
+    print(" \n \nPlease wait some time..... \n\033[37;40m")
     time.sleep(0.5)
     sys.stdout = open(file+".txt", "w")
     printAllKLength(set1, k)
