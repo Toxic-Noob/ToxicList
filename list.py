@@ -1,5 +1,5 @@
 #Coded By Dark Slad3
-#A Product Of Toxic Noobs
+#A Product Of ToxicNoob
 
 import os
 import sys
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     print ("\033[92m")
     os.system(" clear")
     os.system("figlet Toxic List")
-    print("		A Product of Toxic Noobs")
+    print("		A Product of ToxicNoob")
     print ("\n")
     time.sleep(0.8)
     print("[01] Wordlist with Numbers and Alphabets (1,2,3,a,b,c) . \n")
