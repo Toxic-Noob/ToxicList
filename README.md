@@ -14,7 +14,7 @@ pip2 install mechanize
 
 pip2 install requests
 
-git clone https://github.com/toxicnoobs/ToxicList
+git clone https://github.com/Toxic-Noob/ToxicList
 
 cd ToxicList
 
